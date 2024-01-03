@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="330" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Initial State</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="438" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Shipping Methods</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="546" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Product Categories</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="678" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Product Details</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="54" width="528" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Practice Exercise 4</Text>
+          <Font name="Montserrat ExtraBold" size="21.75" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="102" width="528" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Shipping Methods table to add Shipping Methods as a column to "Start 4.1". Combine the "Product Details" and "Product Categories" information.  Finally flag all orders containing "Technology" items that were shipped "Freight".</Text>
+          <Font name="Montserrat" size="11.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="198" width="528" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Associate the appropriate "Shipping Method" with each order based on its "Order_Priority". 
+
+Then combine the "Product Categories" information with the "Product Details" info (the headers in Product Details are product SKUs). 
+
+Finally, combine both datastreams to flag all orders which contained "Technology" items and were sent via "Freight". Mark those orders with "REVIEW" and all others with null.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="606" y="330" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Final State</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Product Categories.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Product Categories.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Product_Category" size="255" source="Summarize: GroupBy - Product_Category" type="V_String" />
+            <Field name="Product_Sub-Category" size="255" source="Summarize: GroupBy - Product_Sub-Category" type="V_String" />
+            <Field name="Product SKU" size="2147483647" source="Summarize: Concat - ID" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Priority" />
+            <Field name="Shipping Method" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Not Specified</c>
+              <c>Freight</c>
+            </r>
+            <r>
+              <c>Low</c>
+              <c>Ground</c>
+            </r>
+            <r>
+              <c>Medium</c>
+              <c>2 Day</c>
+            </r>
+            <r>
+              <c>High</c>
+              <c>Next Day Air</c>
+            </r>
+            <r>
+              <c>Critical</c>
+              <c>Same Day</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Priority" size="13" source="TextInput:" type="V_String" />
+            <Field name="Shipping Method" size="12" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Start 4.1.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Start 4.1.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="5" source="TextInput:" type="V_String" />
+            <Field name="Store_Number" size="3" source="TextInput:" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="Name" size="45" source="TextToColumns: Parsed from Field1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="Address" size="45" source="TextToColumns: Parsed from Field1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="Zip" size="45" source="TextToColumns: Parsed from Field1" type="V_String" />
+            <Field name="Product SKU" size="255" source="File: " type="V_String" />
+            <Field name="Discount" source="(Multiple Sources)" type="Double" />
+            <Field name="Unit_Price" source="File: " type="Double" />
+            <Field name="Shipping_Cost" source="File: " type="Double" />
+            <Field name="Order_Date" size="22" source="DateTime: (Multiple Sources)" type="V_String" />
+            <Field name="Ship_Date" source="DateTime: To MM/dd/yyyy" type="Date" />
+            <Field name="Quantity_ordered_new" source="File: " type="Byte" />
+            <Field name="Order_ID" size="255" source="File: " type="V_String" />
+            <Field name="Order_Priority" size="255" source="File: " type="V_String" />
+            <Field name="Customer_Segment" size="14" source="TextInput:" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field1" name="City" size="45" source="TextToColumns: Parsed from Field1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Product Details.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Product Details.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Info Category" size="17" source="CrossTab:Group:First:" type="String" />
+            <Field name="1390" size="255" source="File: " type="V_String" />
+            <Field name="1399" size="255" source="File: " type="V_String" />
+            <Field name="1417" size="255" source="File: " type="V_String" />
+            <Field name="2336" size="255" source="File: " type="V_String" />
+            <Field name="2986" size="255" source="File: " type="V_String" />
+            <Field name="3406" size="255" source="File: " type="V_String" />
+            <Field name="3989" size="255" source="File: " type="V_String" />
+            <Field name="4471" size="255" source="File: " type="V_String" />
+            <Field name="4472" size="255" source="File: " type="V_String" />
+            <Field name="4820" size="255" source="File: " type="V_String" />
+            <Field name="4821" size="255" source="File: " type="V_String" />
+            <Field name="4822" size="255" source="File: " type="V_String" />
+            <Field name="5231" size="255" source="File: " type="V_String" />
+            <Field name="6406" size="255" source="File: " type="V_String" />
+            <Field name="7068" size="255" source="File: " type="V_String" />
+            <Field name="7106" size="255" source="File: " type="V_String" />
+            <Field name="18038" size="255" source="File: " type="V_String" />
+            <Field name="18044" size="255" source="File: " type="V_String" />
+            <Field name="18156" size="255" source="File: " type="V_String" />
+            <Field name="18157" size="255" source="File: " type="V_String" />
+            <Field name="18158" size="255" source="File: " type="V_String" />
+            <Field name="18159" size="255" source="File: " type="V_String" />
+            <Field name="18249" size="255" source="File: " type="V_String" />
+            <Field name="18312" size="255" source="File: " type="V_String" />
+            <Field name="18436" size="255" source="File: " type="V_String" />
+            <Field name="18490" size="255" source="File: " type="V_String" />
+            <Field name="18491" size="255" source="File: " type="V_String" />
+            <Field name="18501" size="255" source="File: " type="V_String" />
+            <Field name="18502" size="255" source="File: " type="V_String" />
+            <Field name="18606" size="255" source="File: " type="V_String" />
+            <Field name="18643" size="255" source="File: " type="V_String" />
+            <Field name="18644" size="255" source="File: " type="V_String" />
+            <Field name="18669" size="255" source="File: " type="V_String" />
+            <Field name="18786" size="255" source="File: " type="V_String" />
+            <Field name="18809" size="255" source="File: " type="V_String" />
+            <Field name="18825" size="255" source="File: " type="V_String" />
+            <Field name="18832" size="255" source="File: " type="V_String" />
+            <Field name="18833" size="255" source="File: " type="V_String" />
+            <Field name="18834" size="255" source="File: " type="V_String" />
+            <Field name="18857" size="255" source="File: " type="V_String" />
+            <Field name="18858" size="255" source="File: " type="V_String" />
+            <Field name="18908" size="255" source="File: " type="V_String" />
+            <Field name="18969" size="255" source="File: " type="V_String" />
+            <Field name="18970" size="255" source="File: " type="V_String" />
+            <Field name="19072" size="255" source="File: " type="V_String" />
+            <Field name="19111" size="255" source="File: " type="V_String" />
+            <Field name="19125" size="255" source="File: " type="V_String" />
+            <Field name="19126" size="255" source="File: " type="V_String" />
+            <Field name="19131" size="255" source="File: " type="V_String" />
+            <Field name="19148" size="255" source="File: " type="V_String" />
+            <Field name="19202" size="255" source="File: " type="V_String" />
+            <Field name="19269" size="255" source="File: " type="V_String" />
+            <Field name="19274" size="255" source="File: " type="V_String" />
+            <Field name="19290" size="255" source="File: " type="V_String" />
+            <Field name="19384" size="255" source="File: " type="V_String" />
+            <Field name="19385" size="255" source="File: " type="V_String" />
+            <Field name="19457" size="255" source="File: " type="V_String" />
+            <Field name="19462" size="255" source="File: " type="V_String" />
+            <Field name="19463" size="255" source="File: " type="V_String" />
+            <Field name="19535" size="255" source="File: " type="V_String" />
+            <Field name="19536" size="255" source="File: " type="V_String" />
+            <Field name="19575" size="255" source="File: " type="V_String" />
+            <Field name="19589" size="255" source="File: " type="V_String" />
+            <Field name="19675" size="255" source="File: " type="V_String" />
+            <Field name="19739" size="255" source="File: " type="V_String" />
+            <Field name="19795" size="255" source="File: " type="V_String" />
+            <Field name="19852" size="255" source="File: " type="V_String" />
+            <Field name="19866" size="255" source="File: " type="V_String" />
+            <Field name="19949" size="255" source="File: " type="V_String" />
+            <Field name="19999" size="255" source="File: " type="V_String" />
+            <Field name="20061" size="255" source="File: " type="V_String" />
+            <Field name="20062" size="255" source="File: " type="V_String" />
+            <Field name="20101" size="255" source="File: " type="V_String" />
+            <Field name="20171" size="255" source="File: " type="V_String" />
+            <Field name="20220" size="255" source="File: " type="V_String" />
+            <Field name="20239" size="255" source="File: " type="V_String" />
+            <Field name="20391" size="255" source="File: " type="V_String" />
+            <Field name="20428" size="255" source="File: " type="V_String" />
+            <Field name="20487" size="255" source="File: " type="V_String" />
+            <Field name="20510" size="255" source="File: " type="V_String" />
+            <Field name="20511" size="255" source="File: " type="V_String" />
+            <Field name="20600" size="255" source="File: " type="V_String" />
+            <Field name="20604" size="255" source="File: " type="V_String" />
+            <Field name="20637" size="255" source="File: " type="V_String" />
+            <Field name="20744" size="255" source="File: " type="V_String" />
+            <Field name="20805" size="255" source="File: " type="V_String" />
+            <Field name="20823" size="255" source="File: " type="V_String" />
+            <Field name="20859" size="255" source="File: " type="V_String" />
+            <Field name="20870" size="255" source="File: " type="V_String" />
+            <Field name="20871" size="255" source="File: " type="V_String" />
+            <Field name="20882" size="255" source="File: " type="V_String" />
+            <Field name="20883" size="255" source="File: " type="V_String" />
+            <Field name="20884" size="255" source="File: " type="V_String" />
+            <Field name="20885" size="255" source="File: " type="V_String" />
+            <Field name="20898" size="255" source="File: " type="V_String" />
+            <Field name="20914" size="255" source="File: " type="V_String" />
+            <Field name="20937" size="255" source="File: " type="V_String" />
+            <Field name="20942" size="255" source="File: " type="V_String" />
+            <Field name="20946" size="255" source="File: " type="V_String" />
+            <Field name="20955" size="255" source="File: " type="V_String" />
+            <Field name="21045" size="255" source="File: " type="V_String" />
+            <Field name="21052" size="255" source="File: " type="V_String" />
+            <Field name="21053" size="255" source="File: " type="V_String" />
+            <Field name="21059" size="255" source="File: " type="V_String" />
+            <Field name="21060" size="255" source="File: " type="V_String" />
+            <Field name="21061" size="255" source="File: " type="V_String" />
+            <Field name="21082" size="255" source="File: " type="V_String" />
+            <Field name="21083" size="255" source="File: " type="V_String" />
+            <Field name="21130" size="255" source="File: " type="V_String" />
+            <Field name="21162" size="255" source="File: " type="V_String" />
+            <Field name="21163" size="255" source="File: " type="V_String" />
+            <Field name="21230" size="255" source="File: " type="V_String" />
+            <Field name="21307" size="255" source="File: " type="V_String" />
+            <Field name="21341" size="255" source="File: " type="V_String" />
+            <Field name="21353" size="255" source="File: " type="V_String" />
+            <Field name="21459" size="255" source="File: " type="V_String" />
+            <Field name="21525" size="255" source="File: " type="V_String" />
+            <Field name="21534" size="255" source="File: " type="V_String" />
+            <Field name="21535" size="255" source="File: " type="V_String" />
+            <Field name="21536" size="255" source="File: " type="V_String" />
+            <Field name="21549" size="255" source="File: " type="V_String" />
+            <Field name="21655" size="255" source="File: " type="V_String" />
+            <Field name="21680" size="255" source="File: " type="V_String" />
+            <Field name="21740" size="255" source="File: " type="V_String" />
+            <Field name="21741" size="255" source="File: " type="V_String" />
+            <Field name="21771" size="255" source="File: " type="V_String" />
+            <Field name="21785" size="255" source="File: " type="V_String" />
+            <Field name="21786" size="255" source="File: " type="V_String" />
+            <Field name="21802" size="255" source="File: " type="V_String" />
+            <Field name="21803" size="255" source="File: " type="V_String" />
+            <Field name="21818" size="255" source="File: " type="V_String" />
+            <Field name="21940" size="255" source="File: " type="V_String" />
+            <Field name="21957" size="255" source="File: " type="V_String" />
+            <Field name="21959" size="255" source="File: " type="V_String" />
+            <Field name="21988" size="255" source="File: " type="V_String" />
+            <Field name="22016" size="255" source="File: " type="V_String" />
+            <Field name="22025" size="255" source="File: " type="V_String" />
+            <Field name="22062" size="255" source="File: " type="V_String" />
+            <Field name="22083" size="255" source="File: " type="V_String" />
+            <Field name="22084" size="255" source="File: " type="V_String" />
+            <Field name="22143" size="255" source="File: " type="V_String" />
+            <Field name="22192" size="255" source="File: " type="V_String" />
+            <Field name="22196" size="255" source="File: " type="V_String" />
+            <Field name="22215" size="255" source="File: " type="V_String" />
+            <Field name="22239" size="255" source="File: " type="V_String" />
+            <Field name="22240" size="255" source="File: " type="V_String" />
+            <Field name="22330" size="255" source="File: " type="V_String" />
+            <Field name="22333" size="255" source="File: " type="V_String" />
+            <Field name="22394" size="255" source="File: " type="V_String" />
+            <Field name="22565" size="255" source="File: " type="V_String" />
+            <Field name="22580" size="255" source="File: " type="V_String" />
+            <Field name="22582" size="255" source="File: " type="V_String" />
+            <Field name="22583" size="255" source="File: " type="V_String" />
+            <Field name="22593" size="255" source="File: " type="V_String" />
+            <Field name="22639" size="255" source="File: " type="V_String" />
+            <Field name="22650" size="255" source="File: " type="V_String" />
+            <Field name="22742" size="255" source="File: " type="V_String" />
+            <Field name="22743" size="255" source="File: " type="V_String" />
+            <Field name="22754" size="255" source="File: " type="V_String" />
+            <Field name="22851" size="255" source="File: " type="V_String" />
+            <Field name="22852" size="255" source="File: " type="V_String" />
+            <Field name="22853" size="255" source="File: " type="V_String" />
+            <Field name="22860" size="255" source="File: " type="V_String" />
+            <Field name="22864" size="255" source="File: " type="V_String" />
+            <Field name="22865" size="255" source="File: " type="V_String" />
+            <Field name="22938" size="255" source="File: " type="V_String" />
+            <Field name="23046" size="255" source="File: " type="V_String" />
+            <Field name="23144" size="255" source="File: " type="V_String" />
+            <Field name="23163" size="255" source="File: " type="V_String" />
+            <Field name="23164" size="255" source="File: " type="V_String" />
+            <Field name="23238" size="255" source="File: " type="V_String" />
+            <Field name="23307" size="255" source="File: " type="V_String" />
+            <Field name="23308" size="255" source="File: " type="V_String" />
+            <Field name="23311" size="255" source="File: " type="V_String" />
+            <Field name="23336" size="255" source="File: " type="V_String" />
+            <Field name="23342" size="255" source="File: " type="V_String" />
+            <Field name="23373" size="255" source="File: " type="V_String" />
+            <Field name="23384" size="255" source="File: " type="V_String" />
+            <Field name="23389" size="255" source="File: " type="V_String" />
+            <Field name="23404" size="255" source="File: " type="V_String" />
+            <Field name="23452" size="255" source="File: " type="V_String" />
+            <Field name="23596" size="255" source="File: " type="V_String" />
+            <Field name="23723" size="255" source="File: " type="V_String" />
+            <Field name="23724" size="255" source="File: " type="V_String" />
+            <Field name="23775" size="255" source="File: " type="V_String" />
+            <Field name="23829" size="255" source="File: " type="V_String" />
+            <Field name="23866" size="255" source="File: " type="V_String" />
+            <Field name="23889" size="255" source="File: " type="V_String" />
+            <Field name="23936" size="255" source="File: " type="V_String" />
+            <Field name="23954" size="255" source="File: " type="V_String" />
+            <Field name="23955" size="255" source="File: " type="V_String" />
+            <Field name="23956" size="255" source="File: " type="V_String" />
+            <Field name="23957" size="255" source="File: " type="V_String" />
+            <Field name="24028" size="255" source="File: " type="V_String" />
+            <Field name="24040" size="255" source="File: " type="V_String" />
+            <Field name="24146" size="255" source="File: " type="V_String" />
+            <Field name="24166" size="255" source="File: " type="V_String" />
+            <Field name="24179" size="255" source="File: " type="V_String" />
+            <Field name="24187" size="255" source="File: " type="V_String" />
+            <Field name="24211" size="255" source="File: " type="V_String" />
+            <Field name="24260" size="255" source="File: " type="V_String" />
+            <Field name="24358" size="255" source="File: " type="V_String" />
+            <Field name="24492" size="255" source="File: " type="V_String" />
+            <Field name="24541" size="255" source="File: " type="V_String" />
+            <Field name="24620" size="255" source="File: " type="V_String" />
+            <Field name="24692" size="255" source="File: " type="V_String" />
+            <Field name="24760" size="255" source="File: " type="V_String" />
+            <Field name="24819" size="255" source="File: " type="V_String" />
+            <Field name="24849" size="255" source="File: " type="V_String" />
+            <Field name="24870" size="255" source="File: " type="V_String" />
+            <Field name="24929" size="255" source="File: " type="V_String" />
+            <Field name="24930" size="255" source="File: " type="V_String" />
+            <Field name="24962" size="255" source="File: " type="V_String" />
+            <Field name="25050" size="255" source="File: " type="V_String" />
+            <Field name="25062" size="255" source="File: " type="V_String" />
+            <Field name="25072" size="255" source="File: " type="V_String" />
+            <Field name="25111" size="255" source="File: " type="V_String" />
+            <Field name="25186" size="255" source="File: " type="V_String" />
+            <Field name="25242" size="255" source="File: " type="V_String" />
+            <Field name="25243" size="255" source="File: " type="V_String" />
+            <Field name="25356" size="255" source="File: " type="V_String" />
+            <Field name="25357" size="255" source="File: " type="V_String" />
+            <Field name="25376" size="255" source="File: " type="V_String" />
+            <Field name="25377" size="255" source="File: " type="V_String" />
+            <Field name="25414" size="255" source="File: " type="V_String" />
+            <Field name="25415" size="255" source="File: " type="V_String" />
+            <Field name="25416" size="255" source="File: " type="V_String" />
+            <Field name="25465" size="255" source="File: " type="V_String" />
+            <Field name="25557" size="255" source="File: " type="V_String" />
+            <Field name="25570" size="255" source="File: " type="V_String" />
+            <Field name="25582" size="255" source="File: " type="V_String" />
+            <Field name="25622" size="255" source="File: " type="V_String" />
+            <Field name="25717" size="255" source="File: " type="V_String" />
+            <Field name="25739" size="255" source="File: " type="V_String" />
+            <Field name="25807" size="255" source="File: " type="V_String" />
+            <Field name="25808" size="255" source="File: " type="V_String" />
+            <Field name="25859" size="255" source="File: " type="V_String" />
+            <Field name="25860" size="255" source="File: " type="V_String" />
+            <Field name="25903" size="255" source="File: " type="V_String" />
+            <Field name="25904" size="255" source="File: " type="V_String" />
+            <Field name="25909" size="255" source="File: " type="V_String" />
+            <Field name="25914" size="255" source="File: " type="V_String" />
+            <Field name="25935" size="255" source="File: " type="V_String" />
+            <Field name="26008" size="255" source="File: " type="V_String" />
+            <Field name="26053" size="255" source="File: " type="V_String" />
+            <Field name="26110" size="255" source="File: " type="V_String" />
+            <Field name="26122" size="255" source="File: " type="V_String" />
+            <Field name="26151" size="255" source="File: " type="V_String" />
+            <Field name="26241" size="255" source="File: " type="V_String" />
+            <Field name="26247" size="255" source="File: " type="V_String" />
+            <Field name="26266" size="255" source="File: " type="V_String" />
+            <Field name="26267" size="255" source="File: " type="V_String" />
+            <Field name="26268" size="255" source="File: " type="V_String" />
+            <Field name="26313" size="255" source="File: " type="V_String" />
+            <Field name="26314" size="255" source="File: " type="V_String" />
+            <Field name="26321" size="255" source="File: " type="V_String" />
+            <Field name="26344" size="255" source="File: " type="V_String" />
+            <Field name="26364" size="255" source="File: " type="V_String" />
+            <Field name="26378" size="255" source="File: " type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="618" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Final State - Exercise 4.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Final State - Exercise 4.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order_ID" size="255" source="Summarize: GroupBy - Order_ID" type="V_String" />
+            <Field name="All Product Categories" size="2147483647" source="Summarize: Concat - Product_Category" type="V_String" />
+            <Field name="All Shipping Methods" size="2147483647" source="Summarize: Concat - Shipping Method" type="V_String" />
+            <Field name="Review" size="1073741823" source="Formula: If Contains([All Shipping Methods], &quot;Freight&quot;) AND Contains([All Product Categories], &quot;Tech&quot;)&#xA;then &quot;REVIEW&quot; else null() endif" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Practice Exercise 4</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
